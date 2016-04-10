@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="m-home m-listingsTwo" data-scrolling-animations="true" data-equal-height=".b-auto__main-item">
+    <!-- Loader -->
+    <div id="page-preloader"><span class="spinner"></span></div>
+    <!-- Loader end -->
+    
+    {% include header.html %} 
+    {% include nav.html %} 
+    
+    {{ content }} 
+    
+    {% include footer.html %}
+    {% include scripts.html %}
+</body>
+
+</html>

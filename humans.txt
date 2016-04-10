@@ -1,0 +1,17 @@
+---
+---
+
+/* TEAM */
+
+Chef:Ugo Lattanzi
+Contact: imperugo [at] gmail.com
+Twitter: @imperugo
+From:Milan, Italy
+
+
+/* SITE */
+
+Last update: {{ site.time | date: '%F' }}
+Language: Italian
+Doctype: HTML5
+IDE: VSCode, Github Pages, Jekyll, Ruby

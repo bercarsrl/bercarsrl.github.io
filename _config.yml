@@ -1,0 +1,39 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Bercar srl - acquisto e vendita auto fine leasing, semestrali e km zero"
+description: Esperienza ventennale nel settore del commercio automobilistico. Massima serietà e competenza. Ampio parco auto dei migliori marchi automobilistici.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: /auto/:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/auto/page:num"
+
+gems:
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+opening-hours:
+    sales: "Lun-Sab : 8:00am - 18:00pm<span>&middot;</span> Domenica chiuso</p>"
+    service: "Lun-Sab : 8:00am - 18:00pm· Domenica chiuso"
+
+contacts:
+    address: "Via Belfiore, 200 I-37135 Cadidavid - Verona - Vr"
+    phone1: "+39 045 54.06.69"
+    phone2: "+39 045 54.27.03"
+    fax: "+39 045 8.56.71.73"
+    email: bercarsrl@hotmail.com

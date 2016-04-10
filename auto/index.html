@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<section class="b-pageHeader">
+    <div class="container">
+        <h1 class=" wow zoomInLeft" data-wow-delay="0.5s">Le nostre vetture</h1>
+        <div class="b-pageHeader__search wow zoomInRight" data-wow-delay="0.5s">
+            <h3>{{ site.posts | size }} auto disponibili</h3>
+        </div>
+    </div>
+</section>
+<!--b-pageHeader-->
+
+<div class="b-breadCumbs s-shadow">
+    <div class="container wow zoomInUp" data-wow-delay="0.5s">
+        <a href="{{ " /" | prepend: site.baseurl }}" class="b-breadCumbs__page">Home</a>
+        <span class="fa fa-angle-right"></span>
+        <a href="{{ " /auto/" | prepend: site.baseurl }}" class="b-breadCumbs__page m-active">Elenco</a>
+    </div>
+</div>
+<!--b-breadCumbs-->
+
+<div class="b-items">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-4 col-xs-12">
+                <aside class="b-items__aside">
+                    <div class="b-items__aside-main wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-items__aside-sell-img">
+                            <h3>Vendi la tua <br /> auto</h3>
+                        </div>
+                        <div class="b-items__aside-sell-info">
+                            <p>
+                                Compriamo ogni tipo di auto, fine leasing con pagamento in contanti
+                            </p>
+                            <a href="{{ " /contacts/ " | prepend: site.baseurl }}" class="btn m-btn">CONTATTACI<span class="fa fa-angle-right"></span></a>
+                        </div>
+                    </div>
+                    <div class="b-detail__main-aside-about wow zoomInUp" data-wow-delay="0.5s">
+                        <h2></h2>
+                        <div class="b-detail__main-aside-about-call">
+                            <span class="fa fa-phone"></span>
+                            <div style="font-size: 20px">{{ site.contacts.phone1 }}</div>
+                            <p>{{ site.opening-hours.sales }}</p>
+                        </div>
+                        <div class="b-detail__main-aside-about-seller">
+                            <p>Info: <span>{{ site.contacts.address }}</span></p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <div class="col-lg-9 col-sm-8 col-xs-12">
+                <div class="b-items__cars">
+                    {% for post in paginator.posts %}
+                    {% unless post.redirect %}
+                    {% assign content = post.content %}
+                        {% include carItem.html %}
+                    {% endunless %}
+                    {% endfor %}
+                </div>
+                {% if paginator.total_pages > 1 %}
+                    <div class="b-items__pagination wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="b-items__pagination-main">
+                            {% if paginator.previous_page %}
+                                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="m-left"><span class="fa fa-angle-left"></span></a>
+                            {% else %}
+                                <a href="#" class="m-left"><span class="fa fa-angle-left"></span></a>
+                            {% endif %}
+
+                            {% for page in (1..paginator.total_pages) %}
+                            {% if page == paginator.page %}
+                               <span class="m-active"><a href="#">{{ page }}</a></span>
+                            {% elsif page == 1 %}
+                                <span><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></span>
+                            {% else %}
+                                <span><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></span>
+                            {% endif %}
+                            {% endfor %}
+
+                            {% if paginator.next_page %}
+                                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="m-right"><span class="fa fa-angle-right"></span></a>   
+                            {% else %}
+                                <a href="#" class="m-right"><span class="fa fa-angle-right"></span></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<!--b-items-->

@@ -1,0 +1,21 @@
+<div class="col-md-3 col-xs-12">
+    <aside class="b-blog__aside">
+        <div class="b-blog__aside-categories wow zoomInUp" data-wow-delay="0.3s">
+            <header class="s-lineDownLeft">
+                <h2 class="s-titleDet">CATEGORIES</h2>
+            </header>
+            <nav>
+                <ul class="b-blog__aside-categories-list">
+                    {% for cat in site.categories %}
+                    <li><a href="#">{{ cat[0] }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+        <div class="b-detail__main-aside-about-call wow zoomInUp" data-wow-delay="0.3s">
+            <span class="fa fa-phone"></span>
+            <div style="font-size: 20px">{{ site.contacts.phone1 }}</div>
+            <p>CHIAMACI</p>
+        </div>
+    </aside>
+</div>

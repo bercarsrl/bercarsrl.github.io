@@ -1,0 +1,25 @@
+<header class="b-topBar wow slideInDown" data-wow-delay="0.7s">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-6">
+                <div class="b-topBar__addr">
+                    <span class="fa fa-map-marker"></span>
+                    <a href="{{ " /contatti " | prepend: site.baseurl }}" style="color: white">
+                         {{ site.contacts.address }}
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <div class="b-topBar__tel">
+                    <span class="fa fa-phone"></span> {{ site.contacts.phone1 }}
+                </div>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <div class="b-topBar__tel">
+                    <span class="fa fa-fax"></span> {{ site.contacts.fax }}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--b-topBar-->

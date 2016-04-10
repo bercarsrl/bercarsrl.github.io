@@ -1,0 +1,154 @@
+--- 
+layout: default 
+---
+
+<section class="b-pageHeader">
+    <div class="container">
+        <h1 class=" wow zoomInLeft" data-wow-delay="0.5s">Contattaci</h1>
+        <div class="b-pageHeader__search wow zoomInRight" data-wow-delay="0.5s">
+            <h3>Rimani in contatto con noi</h3>
+        </div>
+    </div>
+</section>
+<!--b-pageHeader-->
+
+<div class="b-breadCumbs s-shadow wow zoomInUp" data-wow-delay="0.5s">
+    <div class="container">
+        <a href="{{ " /" | prepend: site.baseurl }}" class="b-breadCumbs__page">Home</a>
+        <span class="fa fa-angle-right"></span>
+        <a href="{{ " /contatti" | prepend: site.baseurl }}" class="b-breadCumbs__page m-active">Contattaci</a>
+    </div>
+</div>
+<!--b-breadCumbs-->
+
+<div class="b-map wow zoomInUp" data-wow-delay="0.5s">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <div style="overflow:hidden;height:400px;width:100%;">
+        <div id="gmap_canvas" style="height:400px;width:100%;"></div>
+        <div>
+            <small>
+                <a href="http://embedgooglemaps.com">
+                    embed google maps
+                 </a>
+             </small></div>
+        <style>
+            #gmap_canvas img {
+                max-width: none!important;
+                background: none!important
+            }
+        </style>
+    </div>
+    <script type="text/javascript">
+        function init_map(){var myOptions = {scrollwheel:false,zoom:12,center:new google.maps.LatLng(45.3744,10.99212),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(45.3744,10.99212)});infowindow = new google.maps.InfoWindow({content:'<strong>Bercar</strong><br>Via Belfiore, 200 I-37135 Cadidavid - Verona - Vr<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+    </script>
+</div>
+<!--b-map-->
+
+<section class="b-contacts s-shadow">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="b-contacts__form">
+                    <header class="b-contacts__form-header s-lineDownLeft wow zoomInUp" data-wow-delay="0.5s">
+                        <h2 class="s-titleDet">Contattaci</h2>
+                    </header>
+                    <p class=" wow zoomInUp" data-wow-delay="0.5s">Inserisci i tuoi dati nella form di seguito e ti contatteremo il più presto possibile.</p>
+                    <div id="success"></div>
+                    <form id="contactForm" novalidate class="s-form wow zoomInUp" data-wow-delay="0.5s">
+                        <div class="s-relative">
+                            <select name="user-topic" id="user-topic" class="m-select">
+                                <option value="Not select">SELEZIONE L'ARGOMENTO</option>
+                                <option value="Topic 1" >Informazioni</option>
+                                <option value="Topic 2">Acquisto</option>
+                                <option value="Topic 3">Vendita</option>
+                                <option value="Topic 4">Leasing</option>
+                            </select>
+                            <span class="fa fa-caret-down"></span>
+                        </div>
+                        <input type="text" placeholder="IL TUO NOME" value="" name="user-name" id="user-name" />
+                        <input type="text" placeholder="IL TUO INDIRIZZO EMAIL" value="" name="user-email" id="user-email" />
+                        <input type="text" placeholder="IL TUO TELEFONO" value="" name="user-phone" id="user-phone" />
+                        <textarea id="user-message" name="user-message" placeholder="COMMENTI/SUGGERIMENTI/FEEDBACK"></textarea>
+                        <button type="submit" class="btn m-btn">INVIA<span class="fa fa-angle-right"></span></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="b-contacts__address">
+                    <div class="b-contacts__address-hours">
+                        <h2 class="s-titleDet wow zoomInUp" data-wow-delay="0.5s">Orari</h2>
+                        <div class="b-contacts__address-hours-main wow zoomInUp" data-wow-delay="0.5s">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12">
+                                    <h5>Vendita</h5>
+                                    <p>{{ site.opening-hours.sales }}</p>
+                                </div>
+                                <div class="col-md-6 col-xs-12">
+                                    <h5>Officina</h5>
+                                    <p>{{ site.opening-hours.service }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="b-contacts__address-info">
+                        <h2 class="s-titleDet wow zoomInUp" data-wow-delay="0.5s">Contatti</h2>
+                        <address class="b-contacts__address-info-main wow zoomInUp" data-wow-delay="0.5s">
+									<div class="b-contacts__address-info-main-item">
+										<span class="fa fa-home"></span>
+										INDIRIZZO
+										<p>{{ site.contacts.address }}</p>
+									</div>
+									<div class="b-contacts__address-info-main-item">
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-xs-12">
+												<span class="fa fa-phone"></span>
+												TEL.
+											</div>
+											<div class="col-lg-9 col-md-8 col-xs-12">
+												<em>{{ site.contacts.phone1 }}</em>
+											</div>
+										</div>
+									</div>
+                                    <div class="b-contacts__address-info-main-item">
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-xs-12">
+												<span class="fa fa-phone"></span>
+												TEL.
+											</div>
+											<div class="col-lg-9 col-md-8 col-xs-12">
+												<em>{{ site.contacts.phone2 }}</em>
+											</div>
+										</div>
+									</div>
+									<div class="b-contacts__address-info-main-item">
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-xs-12">
+												<span class="fa fa-fax"></span>
+												FAX
+											</div>
+											<div class="col-lg-9 col-md-8 col-xs-12">
+												<em>{{ site.contacts.fax }}</em>
+											</div>
+										</div>
+									</div>
+									<div class="b-contacts__address-info-main-item">
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-xs-12">
+												<span class="fa fa-envelope"></span>
+												EMAIL
+											</div>
+											<div class="col-lg-9 col-md-8 col-xs-12">
+                                                <a href="mailto:{{ site.contacts.email }}">
+												<em>{{ site.contacts.email }}</em>
+                                                </a>
+											</div>
+										</div>
+									</div>
+								</address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--b-contacts-->
