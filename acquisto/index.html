@@ -55,7 +55,7 @@ layout: default
                         <div class="b-blog__aside-popular-posts">
                             {% for post in site.posts limit:3 %}
                             <div class="b-blog__aside-popular-posts-one">
-                                <img width="270" height="150" class="img-responsive" src="/car-images/{{ post.code | string }}/{{ post.pictures[0] | string }}.jpg" alt="merc" />
+                                <img width="270" height="150" class="img-responsive" src="/car-images/{{ post.code | string }}/{{ post.pictures[0] | string }}" alt="merc" />
                                 <h4><a href="{{ post.url }}">{{ post.model }}</a></h4>
                                 <div class="b-blog__aside-popular-posts-one-date">{{ post.price }} € - <span class="fa fa-tachometer"></span> {{ post.km }} KM</div>
                             </div>

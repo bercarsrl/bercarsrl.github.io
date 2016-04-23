@@ -1,0 +1,43 @@
+---
+layout: post
+code: "279685544"
+title: "Porsche 911 Carrera 2 cat Targa"
+date: "2016-03-01"
+make: "Porsche"
+model: "911 Carrera 2 cat Targa"
+price: "43.400"
+color: "Grigio "
+km: "99.382"
+fuelType: "Benzina"
+kw: "184 kW (250 CV) "
+yead: "01/1990"
+model: "911"
+doors: "2"
+transmission: "Manuale"
+
+pictures:
+- "0279685544001.jpg"
+- "0279685544002.jpg"
+- "0279685544003.jpg"
+- "0279685544004.jpg"
+- "0279685544005.jpg"
+- "0279685544006.jpg"
+- "0279685544007.jpg"
+- "0279685544008.jpg"
+- "0279685544009.jpg"
+- "0279685544010.jpg"
+
+optionals:
+- ABS
+- Alzacristalli elettrici
+- Autoradio
+- Cerchi in lega
+- Interni in pelle
+- Regolazione elettrica sedili
+
+categories:
+- Porsche
+Countryman:
+- 911
+---
+PORSCHE 964 TARGA  CON GUIDA A DESTRAINTERNI IN PELLECAMBIO MANUALE CLIMATIZZATORECERCHI IN LEGA SEDILI ELETTRICICONTACHILOMETRI IN MIGLIA : 99392N.B. :-LE FOTO PRESENTI SONO QUELLE REALI DELLA VETTURA-LA LISTA OPTIONAL VIENE INSERITA AUTOMATICAMENTE QUINDI CI RISERVIAMO SULLA POSSIBILITA' DI ERRORI PRESENTI NELLA STESSA (VERIFICARE SEMPRE NELLA DESCRIZIONE DEL VEICOLO SCRITTA DA NOI).PER QUALSISASI DUBBIO NON ESITATE A CONTATTARCI TRAMITE TELEFONO O E-MAIL.SIAMO A VS. DISPOSIZIONE

@@ -238,7 +238,7 @@ layout: default
                             {% for post in site.posts limit:3 %}
                                 <div class="b-info__latest-article wow slideInUp" data-wow-delay="0.3s">
                                     <div class="b-info__latest-article-photo m-audi">
-                                        <img src="/car-images/{{ post.code | string }}/{{ post.pictures[0] | string }}.jpg" alt="{{ post.title }}" height="100%" width="" />
+                                        <img src="/car-images/{{ post.code | string }}/{{ post.pictures[0] | string }}" alt="{{ post.title }}" height="100%" width="" />
                                     </div>
                                     <div class="b-info__latest-article-info">
                                         <h6><a href="{{ post.url }}">{{ post.model }}</a></h6>

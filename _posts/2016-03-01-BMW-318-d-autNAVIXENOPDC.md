@@ -1,0 +1,70 @@
+---
+layout: post
+code: "287152933"
+title: "BMW 318 d *aut.*NAVI*XENO*PDC*"
+date: "2016-03-01"
+make: "BMW"
+model: "318 d *aut.*NAVI*XENO*PDC*"
+price: "23.900"
+color: "Nero metallizzato"
+km: "82.000"
+fuelType: "Diesel"
+kw: "105 kW (143 CV) "
+yead: "06/2014"
+model: "318"
+doors: "4"
+transmission: "Automatico"
+
+pictures:
+- "0287152933001.jpg"
+- "0287152933002.jpg"
+- "0287152933003.jpg"
+- "0287152933004.jpg"
+- "0287152933005.jpg"
+- "0287152933006.jpg"
+- "0287152933007.jpg"
+- "0287152933008.jpg"
+- "0287152933009.jpg"
+- "0287152933010.jpg"
+- "0287152933011.jpg"
+- "0287152933012.jpg"
+- "0287152933013.jpg"
+- "0287152933014.jpg"
+- "0287152933015.jpg"
+
+optionals:
+- ABS
+- Airbag conducente
+- Airbag laterali
+- Airbag passeggero
+- Alzacristalli elettrici
+- Antifurto
+- Autoradio
+- Bluetooth
+- CD
+- Cerchi in lega 17''
+- Chiusura centralizzata
+- Climatizzatore
+- Computer di bordo
+- Controllo automatico trazione
+- ESP
+- Fari Xenon
+- Fendinebbia
+- Immobilizzatore elettronico
+- Isofix
+- Luci diurne
+- MP3
+- Park distance control
+- Riscaldamento ausiliario
+- Sensori di parcheggio assistito posteriori
+- Servosterzo
+- Sistema di navigazione
+- Vivavoce
+- Volante multifunzione
+
+categories:
+- BMW
+Countryman:
+- 318
+---
+BMW 318 D BERLINA AUTOMATICOANNO 2014KM 82.000AUTOVETTURA ITALIANAIN OTTIME CONDIZIONIBEN TENUTACOMPLETA DI :CERCHI IN LEGA 17"FARI XENOSENSORI DI PARCHEGGIOCAMBIO AUTOMATICOVOLANTE MULTIFUNZIONELIMITATORE VELOCITA'SISTEMA DI NAVIGAZIONEMULTIMEDIA IN CON AUX BLUETOOTH PER TELEFONOASSISTENZA MONITOR PARCHEGGIOCLIMARADIO CDPER INFO CONTATTATECI
