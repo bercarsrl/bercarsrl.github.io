@@ -31,14 +31,8 @@ layout: default
                                         <h2 class="s-titleDet">Siamo sempre alla ricerca delle migliori auto</h2>
                                     </header>
                                     <div class="b-blog__posts-one-body-main wow zoomInUp" data-wow-delay="0.5s">
-                                        <p>Et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                            laboris nisi ut aliquip ex ea commodo con equat. Duis aute irure dolor in reprehenderit
-                                            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                                            occaec cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                                            id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                            accusantium doloremque <a href="#">laudantium totam rem aperiam, eaque ipsa</a>                                            quae ab illo inventore veritatis quas architecto beatae vitae dicta sunt explicabo.
-                                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed
-                                            quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                                        <p> La qualità è il segno che ci contraddistingue: siamo costantemente alla ricerca delle migliori auto, selezionando accuratamente un usato di segmento medio alto. Acquistiamo autovetture scelte sia da privati che da aziende, con particolare interesse per le vetture fine leasing o provenienti dal contenzioso di società di leasing.</p>
+                                        <p>L’elevata esigenza di reperire auto nasce per noi dalla necessità di soddisfare un’ingente domanda, offrendo per questo il vantaggio del pagamento immediato, anche in contanti.</p>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +50,7 @@ layout: default
                             {% for post in site.posts limit:3 %}
                             <div class="b-blog__aside-popular-posts-one">
                                 <img width="270" height="150" class="img-responsive" src="/car-images/{{ post.code | string }}/{{ post.pictures[0] | string }}" alt="merc" />
-                                <h4><a href="{{ post.url }}">{{ post.model }}</a></h4>
+                                <h4><a href="{{ post.url }}">{{ post.make }} {{ post.model }}</a></h4>
                                 <div class="b-blog__aside-popular-posts-one-date">{{ post.price }} € - <span class="fa fa-tachometer"></span> {{ post.km }} KM</div>
                             </div>
                             {% endfor %}
@@ -64,11 +58,9 @@ layout: default
                     </div>
                     <div class="b-blog__aside-text wow zoomInUp" data-wow-delay="0.5s">
                         <header class="s-lineDownLeft">
-                            <h2 class="s-titleDet">WHY CHOOSE US?</h2>
+                            <h2 class="s-titleDet">PERCHÈ NOI?</h2>
                         </header>
-                        <p>Curabitur libero. Donec facilisis velit edu est Phasellus conside quat. Aenean vitae quam. Vivamus
-                            etdu nunc. Nunc conseq sem velde metus imperdiet lacinia. Cras ornare pretum tortor. Donec sed
-                            augue sed nunc rutru me egestas. Bulum ante ipsum primisn faucibus orci luctus et ultrices posuere.</p>
+                        <p>La qualità è il segno che ci contraddistingue: siamo costantemente alla ricerca delle migliori auto, selezionando accuratamente un usato di segmento medio alto sia da privati che da aziende, con particolare interesse per le vetture fine leasing o provenienti dal contenzioso di società di leasing.</p>
                     </div>
                     <div class="b-items__aside-sell wow zoomInUp" data-wow-delay="0.5s">
                         <div class="b-items__aside-sell-img">
