@@ -161,7 +161,7 @@
 						[1199, itemsDesktopData]
 					],
 				});
-				
+
 			});
 		},
 
