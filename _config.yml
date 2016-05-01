@@ -34,11 +34,11 @@ jekyll-mentions:
   base_url: https://twitter.com
 
 opening-hours:
-    sales: "Lun-Sab : 8:00am - 18:00pm<span>&middot;</span> Domenica chiuso</p>"
-    service: "Lun-Sab : 8:00am - 18:00pm· Domenica chiuso"
+    sales: "Dal Lunedì al venerdì dalle H.09.00 alle 13.00, dalle 14.30 alle 19.00"
+    service: "Dal Lunedì al venerdì dalle H.09.00 alle 13.00, dalle 14.30 alle 19.00"
 
 contacts:
-    address: "Via Belfiore, 200 I-37135 Cadidavid - Verona - Vr"
+    address: "Via Belfiore 202 B - Verona - Vr"
     phone1: "+39 045 54.06.69"
     phone2: "+39 045 54.27.03"
     fax: "+39 045 8.56.71.73"
