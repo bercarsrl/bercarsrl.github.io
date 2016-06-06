@@ -4,9 +4,9 @@ index: 11
 layout: post
 date: 2016-05-04
 code: "289991820"
-title: "MINI Cooper D Countryman Mini 1.6    ALL4  4*4"
+title: "MINI Cooper D Countryman Mini 1.6 ALL4  4*4"
 make: "MINI"
-model: "Cooper D Countryman Mini 1.6    ALL4  4*4"
+model: "Cooper D Countryman Mini 1.6 ALL4  4*4"
 price: "15.800"
 color: "Nero metallizzato"
 km: "167.000"
