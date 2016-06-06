@@ -1,5 +1,5 @@
 ---
-slug: 1
+slug: "2016-04-24-263756222-Tata-Xenon-22-Dicor-4x2-PL-DC-Pick-up"
 index: 1
 layout: post
 date: 2016-04-24
